@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+    
+body {
+    margin: 0;
+}
+
+/***************************************************/
+/************           LOGO            ************/
+/***************************************************/
+
+header.logoHeader {
+    display: block;    
+}
+
+header.logoHeader img {
+    padding: 20px;
+    margin: 20px 10%;
+    width: 30%;
+    height: auto;
+}
+/***************************************************/
+/***************************************************/
+/***************************************************/
+
+
+
+
+/***************************************************/
+/************      NAVIGATION MENU      ************/
+/***************************************************/
+
+div.nav-bar {
+    display: block;
+}
+
+div.nav-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    background-color: #0041cc;
+    margin: 0;
+}
+
+div.nav-bar ul li {
+    display: inline;
+    list-style: none;
+    padding: 20px 20px;
+}
+
+div.nav-bar ul li a {
+    font-family: verdana;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+}
+
+div.nav-bar ul li a:hover {
+    color: #9da2af;
+}
+
+
+/***************************************************/
+/***************************************************/
+/***************************************************/
+
+body main {
+    background-color: #edf0f5;
+    background-color: white;
+}
+
+h1,h2,h3 {
+    font-family: verdana;
+    color: #0000b3;
+}
+
+
+p {
+    padding: 0;
+    font-size: 13pt;
+    font-family: sans-serif;
+    color: rgba(0,0,0,0.78);
+}
+
+
+/***************************************************/
+/************       PRODUCTS PAGE       ************/
+/***************************************************/
+
+main.productsPage h1 {
+    font-size: 24px;
+}
+
+main.productsPage ul.products_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    list-style-type: none;
+}
+
+main.productsPage ul.products_list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 250px;
+    padding: 0px;
+    margin: 10px;
+}
+
+main.productsPage ul.products_list li a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-family: verdana;
+    font-size: 18px;
+    overflow: auto;   
+}
+
+main.productsPage .products_list li img {
+    display: block;
+    width: 200px;
+    height: 200px; 
+}
+
+
+
+
+/***************************************************/
+/***************************************************/
+/***************************************************/
+
+
+
+
+
+
+
+/***************************************************/
+/************       CONTACT US PAGE       ************/
+/***************************************************/
+
+main.Locations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+}
+
+main.Locations div.location {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: white;
+    margin: 50px 0px;
+}
+
+main.Locations div.location div.locationDescription {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
+main.Locations div.location div.locationDescription h1 {
+    background-color: #99b9ff;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+
+main.Locations div.location div.locationDescription p {
+    font-family: verdana;
+    margin: 5px 0px;
+    font-size: 15px;
+}
+
+main.Locations div.location div.googleMap {
+    border: 8px solid #9da2afaa;
+    margin: 0;
+    border-radius: 4px;
+}
+
+main.Locations div.location form {
+    width: 100%;
+    margin: 5px 0px;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+main.Locations div.location input, textarea {
+    width: 100%;
+    margin: 5px 0px;
+}
+
+main.Locations div.location input[type=text], textarea {
+    border: 2px solid #9da2afaa;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+main.Locations div.location input[type=submit] {
+    background-color: #9da2afaa;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+
+/***************************************************/
+/***************************************************/
+/***************************************************/
+
+
+
+
+
+
+
+
+/***************************************************/
+/************         FOOTER            ************/
+/***************************************************/
+
+.foot-nav {
+    background-color: #9da2af;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.foot-nav #program {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-nav #program p {
+    
+    font-family: sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: normal;
+    line-height: 48px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.foot-nav .footerLinks {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.foot-nav .leftColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-nav .leftColumn > * {
+    font-family: verdana;
+    padding: 10px 0px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.foot-nav .leftColumn img{
+    vertical-align: middle;
+}
+
+.foot-nav .footerLinks .contactUsBtn {
+    text-decoration: none;
+    padding: 30px;
+    background-color: #99b9ff;
+    border: 3px solid white;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+footer div.foot-nav div.footerLinks a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+footer div.copyright  {
+    background-color: #000;
+}
+
+footer .copyright p {
+    font-size: 12px;
+    color: white;
+    padding: 20px 30px;
+    margin: 0;
+}
+
+/***************************************************/
+/***************************************************/
+/***************************************************/
+
+
+
+
+
+
+/***************************************************/
+/************      FUNDING AGENCIES     ************/
+/***************************************************/
+
+.fundingAgencies {
+    font-family: verdana;
+    margin-left: 50px;
+}
+
+.fundingAgencies p {
+    padding: 0;
+    font-size: 15px;
+}
+
+.fundingAgencies a {
+    text-decoration: none;
+    color: #4d85ff;
+}
+
+
+.fundingAgencies h3{
+    text-decoration: none;
+    color: #0041cc;
+}
+
+/***************************************************/
+/***************************************************/
+/***************************************************/
+
+
+/* COLOURS
+
+ALIGN - 0041cc
+top hc - e6eeff
+middle hc - 99b9ff
+bottom hc - 4d85ff
+hhc - 9da2af

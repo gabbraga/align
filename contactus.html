@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+	<title>Align | Locations</title>
+	<!--<link rel="stylesheet" href="css/reset.css">-->
+	<link rel="stylesheet" href="css/align.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nobile">	
+	<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB29QWzzW3blPVPBUI9dFzWvI7d1gj_OYI&callback=initMap'></script>
+	<scrpit src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDRQQebiJ6n14Ypq1QjXgS_-cIo2F57Vrg&callback=initMap'></scrpit>
+	<script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(44.296784,-78.32086700000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.296784,-78.32086700000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Align Home Health Care</strong><br>111 George St N Peterborough Ontario, Canada<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+	<script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(44.264088, -76.955179),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas2'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.264088, -76.955179)});infowindow = new google.maps.InfoWindow({content:'<strong>Align Home Health Care</strong><br>113 Richmond Blvd Napanee Ontario, Canada<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+</head>
+<body>
+    <header class="logoHeader">
+        <a href="index.html"><img src="images/align_logo_2018.png"/></a>
+        <div class="nav-bar">
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="products_js.html">PRODUCTS</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main class="Locations">
+        
+        <div class="location">
+            <form>
+                <div>Name:<input type="text"></div>
+                <div>Email:<input type="text"></div>
+                <div>Description:
+                    <div><textarea rows="6" placeholder="Enter message here..."></textarea></div>
+                </div>
+                <div><input type="submit"></div>
+            </form>
+        
+        </div>
+        <div class="location">
+            <div class="locationDescription">
+            <h1>Peterborough</h1>
+            <p>111 George St. N.</p>
+            <p>Peterborough, ON</p>
+            <p>K9J 3G3</p>
+            <br>
+            <p>Phone: (705) 304-2000</p>
+            <p>Fax: (705) 304-2001</p>
+            <p>Toll Free: 1 (855) 204-2104</p>
+        </div>
+            <div class="googleMap">
+            <div style='overflow:hidden;height:250px;width:300px;'>
+                <div id='gmap_canvas' style='height:250px;width:300px;'></div>
+                <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+            </div>
+        </div>
+        </div>
+        
+        <div class="location">
+            <div class="locationDescription">
+            <h1>Napanee</h1>
+            <p>1-F-113 Richmond Blvd.</p>
+            <p>Napanee, ON</p>
+            <p>K7R 3Z8</p>
+            <br>
+            <p>Phone: (613) 817-8171</p>
+            <p>Fax: (613) 354-1482</p>
+            <p>Toll Free: 1 (855) 204-2104</p>
+        </div>
+            <div class="googleMap">
+            <div style='overflow:hidden;height:250px;width:300px;'>
+                <div id='gmap_canvas2' style='height:250px;width:300px;'></div>
+                <style>#gmap_canvas2 img{max-width:none!important;background:none!important}</style>
+            </div>
+        </div>
+        </div>
+        
+    </main>
+    
+    <footer>
+        <div class="foot-nav">
+            <div id="program">
+                <p id="program">We specialize in improving lives.</p>
+            </div>
+            <div class="footerLinks">
+                <div class="leftColumn">
+                    <p>1 (855) 204-2104</p>
+                    <a href="/fundingAgencies.html">Funding Agencies</a>
+                    <a href="https://www.facebook.com/AlignPeterborough/" target="_blank"><img src="images/facebook_icon.png" width="30px" height="30px">Find us on Facebook</a>
+                </div>
+                <a class="contactUsBtn" href="/contactus.html">Contact Us</a>
+                <a href="https://app.healthsmartfinancial.com/ApplyNow.aspx?uniqueID=2Mi%2BWEszeBHbSMxSogypvA==&Name=YjNQZ3iFsTkbZ5NknRRjBw=="><img src="images/Applynowbutton_en.png" width="250px" height="auto"/></a>
+                
+            </div>
+            <div class="copyright">
+                <p>&copy; 2018 Align Home Health Care</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

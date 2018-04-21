@@ -1,0 +1,401 @@
+body {
+    background-image: url(../../images/watermark_background.png);
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	text-align: left;
+}
+
+
+/******************************************************************************
+*******************************************************************************
+************************* HEADER CONTENT **************************************
+*******************************************************************************
+******************************************************************************/
+
+
+.headerwrapper {
+    
+     margin: 25px 25px 0 25px;
+     width: auto;
+     height: 194px;
+     background-color: white;
+     
+}
+
+header {
+    width: auto;
+    height: 134px;
+}
+header img {
+    margin: 20px 60px;
+    width: 250px;
+    height: auto;
+    float: left;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+
+/******************************************************************************
+*******************************************************************************
+************************* NAVIGATION BAR **************************************
+*******************************************************************************
+******************************************************************************/
+
+/* SITE COLOURS
+royal blue: #1903b9
+dark baby blue: #558ed5
+med baby blue: #8eb4e3
+light baby blue: #b9cde5
+*/
+
+.navigation-bar {
+    
+    margin: 0px 0px;
+    width: auto;
+    height: 60px;
+    background-color: #558ed5;
+    overflow: hidden;
+}
+
+
+.navigation-bar ul {
+    margin: 0;
+    width: 100%;
+    padding: 0px 0px;
+    text-align: center;
+
+}
+
+.navigation-bar ul li {
+    list-style-type: none;
+    display: inline-block;
+    /*-webkit-transition: 1s 3s; */
+    
+}
+
+.navigation-bar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    width: 120px;
+    padding: 21px 60px;
+    font-size: 18px;
+
+}   
+
+.navigation-bar ul li a:hover {
+    
+    color: #558ed5;
+    background-color: #b9cde5;
+
+}
+
+.navigation-bar .products-dropdown-options {
+    display: none;
+    position: absolute;
+    min-width: 400px;
+    max-width: 1000px;
+    min-height: 300px;
+    max-height: 600px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.navigation-bar ul li:hover .products-dropdown-options {
+    display: block;
+}
+
+.navigation-bar .products-dropdown-options table {
+    width: 100%;
+}
+
+.navigation-bar .products-dropdown-options th, td {
+    width: 200px;
+    padding: 0px 0px;
+    padding-top: 20px;
+    vertical-align: top;
+    /*border: 1px solid #1903b9;*/
+}
+
+.navigation-bar .products-dropdown-options td {
+    padding-bottom: 20px;
+}
+
+.navigation-bar .products-dropdown-options th a {
+    width: 200px;
+    padding: 0px 0px;
+    color: #1903b9;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.navigation-bar .products-dropdown-options td a {
+    width: 200px;
+    padding: 10px 0px;
+    color: #8eb4e3;
+    text-align: left;
+}
+
+
+.navigation-bar .products-dropdown-options th:nth-child(1), td:nth-child(1)  {
+    padding-left: 80px;
+}
+
+.navigation-bar .products-dropdown-options th:nth-child(2), td:nth-child(2)  {
+    padding-left: 30px;
+}
+
+.navigation-bar .products-dropdown-options th:nth-child(3), td:nth-child(3)  {
+    padding-right: 40px;
+}
+
+
+
+.navigation-bar .products-dropdown-options a:hover {
+    
+    color: #558ed5;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+/******************************************************************************
+*******************************************************************************
+***************************** BODY PAGE CONTENT *******************************
+*******************************************************************************
+******************************************************************************/
+
+
+.bodywrapper {
+    margin: 0px 25px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    
+}
+
+.product-side-navbar {
+    
+    
+}
+
+.googlemap {
+    
+    margin: 30px auto; 
+    width: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+
+
+/******************************************************************************
+*******************************************************************************
+***************************** OUR STORE ***************************************
+*******************************************************************************
+******************************************************************************/
+
+.store-description {
+    
+    width: 100%;
+    background-color: white;
+    padding: 30px 0;
+    border: 30px solid #b9cde5;
+    box-sizing: border-box;
+
+}
+
+.store-description p {
+    
+    margin: 0 0;
+    padding: 10px 100px;
+    max-width: 100%;
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#hello {
+    
+    font-size: 24px;
+    text-align: center;
+}
+
+.imagegallery {
+    
+    background-color: #8eb4e3;
+    display: inline-block;
+}
+
+.image {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    float: left;
+    background-color: #b9cde5;
+}
+
+.image img {
+    
+    display: block;
+    border: 1px solid #ccc;
+    height: 150px;
+    width: 200px;
+}
+
+image a {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.imagegallery img:hover {
+    border: 1px solid #777;
+}
+
+
+.contactus {
+    
+    background-color: white;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 70px 0;
+}
+
+.contactus h1 {
+    
+    font-family: Nobile, Arial, sans-serif;
+    font-size: 36px;
+    color: #558ed5;
+    padding: 10px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contactus p {
+    
+    font-size: 18px;
+    width: 50%;
+    padding: 3px 0;
+    margin: 0 auto;
+}
+
+
+
+
+/******************************************************************************
+*******************************************************************************
+***************************** HOMEPAGE PHOTO **********************************
+*******************************************************************************
+******************************************************************************/
+
+.teamPhoto img {
+    
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+    display: block;
+    /* use these attributes if you end up using a div:
+    background-image: url(../../images/employee_picture.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+}
+
+
+
+/******************************************************************************
+*******************************************************************************
+***************************** FOOTER ******************************************
+*******************************************************************************
+******************************************************************************/
+
+
+.footerwrapper {
+    margin: 25px 25px;
+    margin-top: 0px;
+    background-color: white;
+    width: auto;
+    height: 200px;
+}
+
+
+
+/******************************************************************************
+*******************************************************************************
+***************************** UNDER CONSTRUSTION ******************************
+*******************************************************************************
+******************************************************************************/
+
+.ucwrapper {
+    
+    font-family: Tahoma, Geneva, sans-serif;
+    margin: 100px 100px;
+    background-color: white;
+    width: auto;
+    height: 450px;
+}
+
+.ucwrapper h1 {
+    
+    text-align: left;
+    padding: 100px;
+    padding-bottom: 0;
+    font-size: 30px;
+    color: #558ed5;
+    
+}
+
+.ucwrapper p,a {
+    text-align: left;
+    padding: 100px;
+    padding-top: 50px;
+    font-size: 16px;
+}
+
+.ucwrapper a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/* CLEARFIX CODE SNIPPET */
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+/* @end */

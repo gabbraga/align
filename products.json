@@ -1,0 +1,133 @@
+[
+    {
+        "url": "access1.png",
+        "category": "Accessibility",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "access2.png",
+        "category": "Accessibility",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "bathroom1.png",
+        "category": "Bathroom Safety",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "bathroom2.png",
+        "category": "Bathroom Safety",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "ceiling1.png",
+        "category": "Ceiling / Floor Lifts and Slings",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "ceiling2.png",
+        "category": "Ceiling / Floor Lifts and Slingsy",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "folding1.png",
+        "category": "Lightweight Folding Manual Wheelchairs",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "folding2.png",
+        "category": "Lightweight Folding Manual Wheelchairs",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "tiltchair1.png",
+        "category": "Manual Tilt Wheelchairs",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "tiltchair2.png",
+        "category": "Manual Tilt Wheelchairs",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "equip1.png",
+        "category": "Pediatric Equipment",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "equip2.png",
+        "category": "Pediatric Equipment",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "recliners1.png",
+        "category": "Power Recliners",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "recliners2.png",
+        "category": "Power Recliners",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "powerchair1.png",
+        "category": "Power Wheelchairs",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "powerchair2.png",
+        "category": "Power Wheelchairs",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "rigid1.png",
+        "category": "Rigid Manual and Custom Manual Wheelchairs",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "rigid2.png",
+        "category": "Rigid Manual and Custom Manual Wheelchairs",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "scooter1.png",
+        "category": "Scooters",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "scooter2.png",
+        "category": "Scooters",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "beds1.png",
+        "category": "Surfaces and Beds",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "beds2.png",
+        "category": "Surfaces and Beds",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "walker1.png",
+        "category": "Walkers and Mobility Aids",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "walker2.png",
+        "category": "Walkers and Mobility Aids",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "cushion1.png",
+        "category": "Wheelchair Seating / Cushions / Backs / Positioning",
+        "length": 200,
+        "width": 200
+    }, {
+        "url": "cushion2.png",
+        "category": "Wheelchair Seating / Cushions / Backs / Positioning",
+        "length": 200,
+        "width": 200
+    }
+]
