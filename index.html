@@ -1,77 +1,97 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="utf-8">
-	<title>Align Home Health Care</title>
-	<!--<link rel="stylesheet" href="css/reset.css">-->
-	<link rel="stylesheet" href="css/align.css">
+    <title>Align Home Health Care</title>
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="css/align.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="jquery.flexslider-min.js"></script>
 </head>
+
 <body>
-    <header class="logoHeader">
-        <a href="index.html"><img src="images/align_logo_2018.png"/></a>
-        <div class="nav-bar">
-            <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="products_js.html">PRODUCTS</a></li>
-            <li><a href="aboutus.html">ABOUT US</a></li>
-            <li><a href="services.html">SERVICES</a></li>
-            <li><a href="contactus.html">CONTACT US</a></li>
-            </ul>
+
+    <header>
+        <div class="LogoImage"></div>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="products_js.html">Products</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contactus.html">Contact Us</a>
         </div>
     </header>
-    
+
     <main class="indexPage">
-        
-        <!-- carousel container -->
-        <div class="carousel-container">
-            <div class="mySlides fade">
-                <img src="images/Carousel images/IMG_0036.jpeg">
-                <div class="carouselText">Caption One</div>
+      
+        <div class="flex-container">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li><a href="#"><div class="carousel1"></div></a><div class="overtop">Request a free consultation with one of our home health care experts today.</div></li>
+                    <li><div class="carousel2"></div><div class="overtop">Request a free consultation with one of our home health care experts today.</div></li>
+                    <li><div class="carousel3"></div><div class="overtop">Request a free consultation with one of our home health care experts today.</div></li>
+                    <li><div class="carousel4"></div><div class="overtop">Request a free consultation with one of our home health care experts today.</div></li>
+                </ul>
             </div>
-
-            <div class="mySlides fade">
-                <img src="images/Carousel images/IMG_1775.JPG">
-                <div class="carouselText">Caption Two</div>
-            </div>
-
-            <div class="mySlides fade">
-                <img src="images/Carousel images/IMG_1779.JPG">
-                <div class="carouselText">Caption Three</div>
-            </div>
-            
-            <div class="mySlides fade">
-                <img src="images/Carousel images/IMG_1794.JPG">
-                <div class="carouselText">Caption Four</div>
-            </div>
-
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-    
+        
+       <div class="catchphrase">
+            Your local and independent home health care experts in South Eastern Ontario.
+        </div>
+        
+        <div class="midIndexFlex">
+            <div class="people">
+                At Align Home Health Care, it's all about people.
+            </div>
+            <div class="stairlift">
+                <span>
+                    Get a free, in-home assessment from one of our specialists today.
+                </span>
+            </div>
+        </div>
+        
+        <div class="product-service">
+            <div class="pro">
+                <div class="proContainer">
+                    <div>Products</div>
+                    <div>Our products are great, would you like to learn more about all the products we have wow okay Our products are great, would you like to learn more about all the products we have wow okay</div>
+                    <a class="viewmore" href="products_js.html">View all products ></a>
+                </div>
+            </div>
+            <div class="serv">
+                <div class="servContainer">
+                    <div>Services</div>
+                    <div>Our services are great, would you like to learn more about all the services we have wow okay Our services are great, would you like to learn more about all the services we have wow okay</div>
+                    <a class="viewmore" href="services.html">View all services ></a>
+                </div>
+            </div>
+        </div>
     </main>
     
-    <footer>
+    <footer class="aboutFooter">
         <div class="foot-nav">
-            <div id="program">
-                <p id="program">We specialize in improving lives.</p>
+            <div class="specialize">We specialize in improving lives.</div>
+            <a class="contactUsBtn" href="/contactus.html">Contact Us Today</a>
+            <div class="bottomLinks">
+                <a href="fundingAgencies.html">Funding</a>
+                <a href="https://www.facebook.com/AlignPeterborough/" target="_blank">Facebook</a>
+                <span>1 (855) 204-2104</span>
             </div>
-            <div class="footerLinks">
-                <div class="leftColumn">
-                    <span>1 (855) 204-2104</span>
-                    <a href="/fundingAgencies.html">Funding Agencies</a>
-                    <a href="https://www.facebook.com/AlignPeterborough/" target="_blank"><img src="images/facebook_icon.png" width="30px" height="30px">Find us on Facebook</a>
-                </div>
-                <a class="contactUsBtn" href="/contactus.html">Contact Us</a>
-                <a href="https://app.healthsmartfinancial.com/ApplyNow.aspx?uniqueID=2Mi%2BWEszeBHbSMxSogypvA==&Name=YjNQZ3iFsTkbZ5NknRRjBw=="><img src="images/Applynowbutton_en.png" width="250px" height="auto"/></a>
-                
-            </div>
-            <div class="copyright">
-                <p>&copy; 2018 Align Home Health Care</p>
-            </div>
+            <div class="copyright">&copy; 2018 Align Home Health Care</div>
         </div>
     </footer>
-    <script src="carousel.js"></script>
+    <script>
+$(document).ready(function () {
+    $('.flexslider').flexslider({
+        animation: 'fade',
+        controlsContainer: '.flexslider'
+    });
+});
+</script>
 </body>
+
 </html>
