@@ -34,22 +34,40 @@
             <li><span>Repairs</span></li>
             <li><span>+ More!</span></li>
         </div>
-        <div class="servVanSides">
-        <div class="servVan">
-            <div class="servReq">Request a Service</div>
+        <!--<div class="servVanSides">
+            <div class="servVan"></div>
+        </div>-->
+        <div class="servicePictures">
+            <div class="servVan"></div>
+            <div class="ricardo"></div>
         </div>
-        </div>
+        <div class="servReq">Request a Service</div>
+
         <div class="servicesForm">
-            <form>
-                <div>Name:<input type="text"></div>
-                <div>Email:<input type="text"></div>
-                <div>Description:
-                    <div><textarea rows="6" placeholder="Enter message here..."></textarea></div>
+            <div class="servFormInstructions">
+                <p>To contact our Services department directly, call
+                    <tel>1-855-204-2104</tel>.</p>
+                <p>To book a service with an email, fill out the form below. </p>
+            </div>
+
+            <form method="post" action="http://www.alignhomehealthcare.ca/email.php">
+                <div class="servFormContent">
+                    <div class="servFormInfo">
+                        <label>Name</label>
+                        <input type="text" name="name" required>
+                        <label>Email</label>
+                        <input type="email" name="email" required>
+                        <label>Phone Number</label>
+                        <input type="tel" name="num" required>
+                    </div>
+                    <div class="servFormDesc">
+                        <label>Description</label>
+                        <textarea rows="8" name="body" placeholder="Enter message here..." required></textarea>
+                    </div>
                 </div>
                 <div><input type="submit"></div>
             </form>
         </div>
-
 
     </main>
 

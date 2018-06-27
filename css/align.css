@@ -199,9 +199,9 @@ header {
     align-items: center;
     justify-content: flex-start;
     clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
-    margin-right: -10%;
+    margin-right: -4%;
     width: 100%;
-    background: linear-gradient(rgba(39,62,122, 0.2), rgba(39,62,122, 0.2)), url("../images/IMG_1780.JPG");
+    background: linear-gradient(rgba(39,62,122, 0.2), rgba(39,62,122, 0.2)), url("../images/IMG_1782.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: rgba(224, 228, 235, 0.9);
@@ -216,7 +216,8 @@ header {
     clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
     margin-left: -10%;
     width: 100%;
-    background: linear-gradient(rgba(224, 228, 235, 0.65), rgba(224, 228, 235, 0.65)), url("../images/IMG_1782.JPG");
+    /*background: linear-gradient(rgba(224, 228, 235, 0.65), rgba(224, 228, 235, 0.65)), url("../images/IMG_1782.JPG");*/
+    background: linear-gradient(rgba(224, 228, 235, 0.7), rgba(224, 228, 235, 0.7)), url("../images/ricardo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(39,62,122);
@@ -235,7 +236,7 @@ header {
 
 .servContainer {
     padding: 70px;
-    padding-left: 25%;
+    padding-left: 30%;
 }
 
 .proContainer div:first-child, .servContainer div:first-child {
@@ -246,9 +247,11 @@ header {
 }
 
 .proContainer div:last-of-type, .servContainer div:last-of-type {
-    width: 70%;
-    font-family: 'Lora', serif;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Raleway', serif;
     align-self: center;
+    font-weight: 200;
 }
 
 
@@ -256,11 +259,13 @@ header {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     color: rgb(39,62,122);
-    padding: 10px 0;
+    padding: 30px 0;
     background-color: rgba(255,255,255,0.6);
-    padding: 10px;
+    padding: 14px;
     border-radius: 8px;
     margin: 20px;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 .viewmore:hover {
@@ -460,10 +465,8 @@ div.nav-bar ul li a:hover {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
     padding: 20px;
-    
-    background-image: url("../images/aboutUsImageHoneycomb.jpg");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -484,36 +487,28 @@ div.nav-bar ul li a:hover {
     max-width: 900px;
 }
 
-/*
-.aboutus div {
-    font-family: 'Lora', serif;
-    font-weight: 400;
-    text-align: justify;
+
+.aboutUsDesc {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: center;
-    width: 70%;
-    padding: 20px;
-    margin-right: 50px;
-    font-size: 16px;
-    background-color: rgba(224, 228, 235, 0.8);
-    border-radius: 6px;
-}*/
-
-
-  
-.aboutus p {
     font-family: 'Lora', serif;
     font-weight: 400;
     text-align: justify;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 30px;
+    /*background-color: rgba(224, 228, 235, 0.8);*/
+    border-radius: 6px;
 }
 
+.aboutUsDesc p {
+    font-size: 17px;
+    margin: 0;
+    padding: 10px;
+}
 
 .aboutus div.missionStatement {
     font-family: 'Raleway', sans-serif;
@@ -522,7 +517,7 @@ div.nav-bar ul li a:hover {
     color: #92a2b9;
     border: 4px solid rgb(39,62,122);
     border-radius: 6px;
-    width: 300px;
+    width: 500px;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.6);
     text-align: center;
@@ -540,25 +535,14 @@ div.nav-bar ul li a:hover {
 
 .aboutus div.napaneeGroup {
     
-    /*background-image: url(../images/Napanee_Employees.jpg);*/
-    background-color: #92a2b9;
-    /*background-size: cover, contain;
-    background-repeat: no-repeat;*/
+    background-image: url(../images/Napanee_Employees.jpg);
+    background-size: cover, contain;
+    background-repeat: no-repeat;
     width: 100%;
     height: 300px;
-    /*background-position: 0 20%;*/
+    background-position: 0 20%;
     border-radius: 14px;
-    margin-bottom: 30px;
-}
-
-.aboutus div.pics {
-    
-    background-image: url("../images/aboutUsImageHoneycomb.jpg");
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover, contain;
-    
+    margin-bottom: 20px;
 }
 
 
@@ -642,11 +626,11 @@ div.nav-bar ul li a:hover {
     font-size: 24px; 
 }
 
+/*
 .servVanSides{
     background-image: url("../images/ServiceVanBlur.jpg");
     background-size: cover, contain;
     background-position: center;
-    
 }
 
 .servVan {
@@ -658,21 +642,43 @@ div.nav-bar ul li a:hover {
     background-repeat: no-repeat;
     background-size: 800px;
     background-position: center;
-    
-    
+}*/
+
+.servicePictures {
+    display: flex;
+    height: 400px;
+    width: 100%;
 }
+
+.servVan {
+    background-image: url("../images/ServiceVan.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ricardo {
+    background-image: url("../images/ricardo.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 .servReq {
-    padding: 40px;
+    padding: 30px;
     width: 100%;
     text-align: center;
-    font-size: 28px;
+    font-size: 36px;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
-    box-shadow: inset 0 0 0 150px rgba(9,22,62,0.7);
-    color: rgba(255, 255, 255, 0.9);
+    box-shadow: inset 0 0 0 150px rgba(39,62,122, 0.9);
+    color: rgba(255, 255, 255, 0.8);
 }
-
 
 .servicesForm {
     display: flex;
@@ -682,20 +688,80 @@ div.nav-bar ul li a:hover {
     align-items: center;
 }
 
-.servicesForm form {
-    width: 80%;
-    margin: 5px 0px;
-    font-size: 15px;
-    padding: 40px;
+.servFormInstructions {
+    padding: 40px 70px;
+    padding-bottom: 10px;
 }
 
-.services input,
-textarea {
+.servFormInstructions p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.servFormInstructions tel {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: rgb(39,62,122);
+}
+
+.servFormContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.servFormContent label {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(39,62,122);
+}
+
+.servicesForm form {
+    font-size: 15px;
+    padding: 0 60px;
+    width: 100%;
+}
+
+
+.servFormInfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.servFormDesc {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;  
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .servFormContent {
+    flex-wrap: wrap;
+}
+    .servFormInfo, .servFormDesc {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.services textarea {
+    margin: 5px 0px;
+}
+
+.services input {
     width: 100%;
     margin: 5px 0px;
 }
 
-.services input[type=text],
+.services input[type=text],input[type=email], input[type=tel],
 textarea {
     border: 2px solid #9da2afaa;
     padding: 8px;
@@ -705,16 +771,23 @@ textarea {
 }
 
 .services input[type=submit] {
-    background-color: #9da2afaa;
+    background-color: rgba(157, 162, 175, 0.5);
     border-radius: 4px;
     color: white;
     text-decoration: none;
     border: none;
-    padding: 10px;
+    padding: 20px;
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 200;
+    width: 100%;
 }
+
+.services input[type=submit]:hover, .contactUs input[type=submit]:hover {
+    background-color: rgba(39,62,122, 0.9);
+}
+
+
 
 /***************************************************/
 
@@ -827,11 +900,12 @@ textarea {
     color: white;
     text-decoration: none;
     border: none;
-    padding: 10px;
+    padding: 20px;
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 200;
 }
+
 
 .location h2 {
     display: flex;
@@ -870,6 +944,7 @@ textarea {
 
 .foot-nav {
     background-color: #e0e4eb;
+    /*background-color: #0041cc;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -890,6 +965,7 @@ textarea {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     color: rgb(39, 62, 122);
+    /*color: #fff;*/
     padding: 40px;
 }
 
@@ -903,10 +979,11 @@ textarea {
     text-decoration: none;
     padding: 20px;
     margin: 40px 0;
-    /*background-color: rgb(39,62,122);*/
     border: 4px rgb(39, 62, 122) solid;
+    /*border: 4px rgb(255, 255, 255) solid;*/
     border-radius: 10px;
     color: rgb(39, 62, 122);
+    /*color: rgb(255, 255, 255);*/
 }
 
 .footerLinks a:visited {
@@ -914,11 +991,13 @@ textarea {
 }
 
 .bottomLinks {
+    height: 90px;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     padding: 20px;
     background-color: #92a2b9;
+    background-color: #000;
 }
 
 .bottomLinks * {
