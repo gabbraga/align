@@ -140,32 +140,33 @@ header {
 
 .midIndexFlex {
     background-color: #e0e4eb;
+    background: rgba(0,0,0,0.7);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 30px;
+    align-items: center;
 }
 
 .catchphrase {
     color: #92a2b9;
     color: rgb(39,62,122);
     font-family: 'Raleway', sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 200;
     text-align: center;
-    padding: 20px 50px;
+    padding: 30px 50px;
     background-color: rgb(39,62,122);
     background-color: #e0e4eb;
 }
 
-.stairlift {
+.stairlift, .stairlift2 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-content: center;
-    width: 350px;
+    width: 550px;
     height: 450px;
     background-image: url(../images/IMG_1780.JPG);
     background-size: cover, contain;
@@ -173,16 +174,48 @@ header {
     background-position: 70% 100%;
 }
 
-.stairlift span {
+.stairlift2 {
+    
+    background-image: url(../images/IMG_1782.JPG);
+    background-size: cover, contain;
+    background-repeat: no-repeat;
+    background-position: 70% 100%;
+}
+
+.stairlift span, .stairlift2 span {
     display: block;
     font-family: 'Raleway', sans-serif;
-    background-color: rgba(146, 162, 185, 0.7);
+    background-color: rgba(146, 182, 205, 0.9);
     padding: 15px 30px;
     margin: 30px;
     font-size: 20px;
     font-weight: 200;
     color: rgba(255,255,255,0.7);
     text-align: right;
+}
+
+.midIndexFlex div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgba(255,255,255,0.7);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    padding: 0px 30px;
+    text-align: center;
+    
+}
+
+.midIndexFlex div div {
+    padding: 40px 0;
+}
+
+.midIndexFlex div div:nth-child(odd) {
+    font-weight: 400;
+    font-size:  30px;
+    padding: 20px;
+    text-align: center;
 }
 
 /***********************/
@@ -201,7 +234,7 @@ header {
     clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
     margin-right: -4%;
     width: 100%;
-    background: linear-gradient(rgba(39,62,122, 0.2), rgba(39,62,122, 0.2)), url("../images/IMG_1782.jpg");
+    background: linear-gradient(rgba(39,62,122, 0.2), rgba(39,62,122, 0.2)), url("../images/IMG_0632.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: rgba(224, 228, 235, 0.9);
@@ -582,7 +615,13 @@ div.nav-bar ul li a:hover {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
-    margin: 20px 60px;
+    padding: 40px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.9.5);
+}
+
+.indexPage .servDesc {
+    background-color: #e0e4eb;
 }
 
 .servOffer {
