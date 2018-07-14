@@ -58,11 +58,13 @@
                         <label>Phone Number</label>
                         <input type="tel" name="num">
                         <label>Preferred Location</label>
-                        <div class="radioLoc">
-                            <input type="radio" name="location" value="peterborough" checked> Peterborough 
-                        </div>
-                        <div class="radioLoc">
-                            <input type="radio" name="location" value="napanee"> Napanee
+                        <div>
+                            <label class="radioLoc">
+                                    <input type="radio" name="location" value="Peterborough" checked>Peterborough
+                            </label> 
+                            <label class="radioLoc">
+                                <input type="radio" name="location" value="Napanee">Napanee
+                            </label>
                         </div>
                     </div>
                     <div class="servFormDesc">
@@ -70,7 +72,7 @@
                         <textarea rows="1" name="body" placeholder="Enter message here..."></textarea>
                     </div>
                 </div>
-                <div><input type="submit"></div>
+                <div><input type="submit" name="submit" value="Send Email"></div>
             </form>
         </div>
 

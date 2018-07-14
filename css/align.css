@@ -506,12 +506,9 @@ div.nav-bar ul li a:hover {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
     height: 100%;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: 700px;
-    background-position: -150px 50%;
 }
 
 
@@ -521,45 +518,42 @@ div.nav-bar ul li a:hover {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     color: rgb(39, 62, 122);
-    margin: 0px 40px;
-    padding: 20px;
+    margin: 0;
     width: 100%;
-    max-width: 900px;
 }
 
+.aboutus div.napaneeGroup {
+    background-image: url(../images/Napanee_Employees.jpg);
+    background-size: cover, contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-position: 0 20%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
 
 .aboutUsDesc {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-family: 'Lora', serif;
-    font-weight: 400;
-    text-align: justify;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
     width: 100%;
-    padding: 30px;
-    /*background-color: rgba(224, 228, 235, 0.8);*/
-    border-radius: 6px;
 }
 
 .aboutUsDesc p {
-    font-size: 17px;
-    margin: 0;
-    padding: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.6;
 }
 
 .aboutus div.missionStatement {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     font-size: 24px;
-    color: #92a2b9;
-    border: 4px solid rgb(39,62,122);
-    border-radius: 6px;
-    width: 500px;
-    padding: 30px;
-    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(39,62,122, 0.8);
+    border: 2px solid rgb(39,62,122);
+    border-radius: 4px;
+    width: 490px;
+    padding: 20px 30px;
+    /*white-space: pre-line;*/
+    margin: 10px 0;
     text-align: center;
 }
 
@@ -573,17 +567,7 @@ div.nav-bar ul li a:hover {
     font-size: 24px;
 }
 
-.aboutus div.napaneeGroup {
-    
-    background-image: url(../images/Napanee_Employees.jpg);
-    background-size: cover, contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 300px;
-    background-position: 0 20%;
-    border-radius: 14px;
-    margin-bottom: 20px;
-}
+
 
 
 /***************************************************/
@@ -708,14 +692,13 @@ div.nav-bar ul li a:hover {
 }
 
 .ricardo {
-    background-image: url("../images/ricardo.jpg");
+    background-image: url("../images/ricardoOrig.jpg");
     width: 100%;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
 
 .servReq {
     padding: 30px;
@@ -774,7 +757,6 @@ div.nav-bar ul li a:hover {
     width: 100%;
 }
 
-
 .servFormInfo {
     display: flex;
     flex-direction: column;
@@ -802,21 +784,38 @@ div.nav-bar ul li a:hover {
 
 .services textarea {
     margin: 5px 0px;
-    height: 250px;
+    height: 260px;
 }
 
-.services input, .radioLoc {
+.servFormContent input {
     width: 100%;
-    margin: 5px 0px;
+    margin: 7px 0px;
+    margin-bottom: 12px;
 }
 
-.services input[type=radio] {
-    width: 4%;
+.servFormContent input[type=radio]{
+    width: auto;
+    margin: 0;
 }
 
 .servFormInfo div {
-    font-size: 18px;
+    display: flex;   
 }
+
+.servFormInfo div label {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: 200; 
+    font-size: 18px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.servFormContent input[type=radio] {
+    margin-right: 8px;
+}
+
 
 .services input[type=text],input[type=email], input[type=tel],
 textarea {
@@ -838,6 +837,7 @@ textarea {
     font-size: 30px;
     font-weight: 200;
     width: 100%;
+    margin: 10px 0;
 }
 
 .services input[type=submit]:hover, .contactUs input[type=submit]:hover {
